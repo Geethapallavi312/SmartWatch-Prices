@@ -38,7 +38,10 @@ The best performing model was saved using pickle for future deployment or use.
 An integrated web interface was developed to allow users to interact with the prediction model:
 
 index.html: The homepage of the web application.
+
 predict.html: A page for users to input smart watch features and get price predictions.
+
 watch_prediction.html: A page that displays the predicted price of the smart watch based on user inputs.
+
 The web interface uses Flask to handle form submissions and display results. Error handling and page navigation issues were addressed to ensure smooth user experience.
 
